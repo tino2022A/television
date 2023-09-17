@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reproductor de Video Centrado</title>
+    <!-- Incluye el enlace a la biblioteca Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h1 class="my-0 font-weight-normal">GolTV</h1>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <div class="video-container">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe allow="encrypted-media" src="https://thaifree.asia/dtvpl2.html?id=1134" width="100%" height="100%" name="iframe" id="iframe" frameborder="0" scrolling="no" style="position:absolute;" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-fl" id="reload-button">Recargar página</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Incluye el enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
